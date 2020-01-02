@@ -3,9 +3,9 @@
 ### Final Project
 ​
 Submitted in partial fulfillment of course requirements for DSCI521-900 Data Analysis and Interpretation (Summer 2019) to Munif Mujib on September 7, 2019.
-​
+
 Team Members: Aviad Reuenny, Fadie Ghraib, Matthew DeSalle
-​
+
 College of Computing & Informatics<br>
 Drexel University<br>
 Philadelphia PA 19104
