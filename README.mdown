@@ -1,0 +1,70 @@
+# Philadelphia Propery Assessment Analysis
+​
+### Final Project
+​
+Submitted in partial fulfillment of course requirements for DSCI521-900 Data Analysis and Interpretation (Summer 2019) to Munif Mujib on September 7, 2019.
+​
+Team Members: Aviad Reuenny, Fadie Ghraib, Matthew DeSalle
+​
+College of Computing & Informatics<br>
+Drexel University<br>
+Philadelphia PA 19104
+​
+### ABSTRACT
+​
+Residential and commercial real estate in the City of Philadelphia is subject to real estate taxes that go to fund the School District of Philadelphia as well as the City of Philadelphia. The Philadelphia City Council sets the property tax rate yearly and in 2020 the rate was set at 1.3998%, unchanged from fiscal year 2019 (see the table below for recent historical rates). City Council has enacted numerous policies to abate property values for various economic and political reasons. 
+​
+| YEAR  | SCHOOL_DIST   |   CITY    |  TOTAL    |
+|:----: |:-----------:  |:-------:  |:-------:  |
+| 2014  | 0.6018%       | 0.7382%   | 1.3400%   |
+| 2015  | 0.6018%       | 0.7382%   | 1.3400%   |
+| 2016  | 0.6317%       | 0.7681%   | 1.3998%   |
+| 2017  | 0.6317%       | 0.7681%   | 1.3998%   |
+| 2018  | 0.6317%       | 0.7681%   | 1.3998%   |
+| 2019  | 0.6317%       | 0.7681%   | 1.3998%   |
+| 2020  | 0.6317%       | 0.7681%   | 1.3998%   |
+​
+The 10-year abatement of Real Estate Taxes, enacted in 1997, exempts from tax the added value from new construction or rehabilitation of both residential and commercial properties, allowing the property owner to pay no tax on improvements for a 10-year period. Other types of property abatements and exemptions exists for non-profits, long time homeowner residents and disabled persons.  The 10-year tax abatement is most significant, impactful and politically consequential abatement due to the current state of the Philadelphia real estate market.
+​
+Our goal is to explore, analyze and investigate Philadelphia Property Assessment data that is available via [OpenDataPhilly.org](https://www.opendataphilly.org/). We are going to attempt to answer questions that are relevant to Philadelphia’s citizens, property owners, elected officials and real estate professionals using methods and techniques that are learned from DSCI521. Analyses will be coded in Python and its associated libraries using Jupyter notebooks. 
+​
+### DATA
+​
+- `opa_properties_public.csv` - Property characteristics, ownership information, and most recent assessment.
+- `assessments.csv` - Last five years of property assessment history.
+​
+### CODE
+​
+- `PHL_RE_Intro.ipynb` - Introduction to the project that gives background on the team members and the lens we are using to analyze the data.
+- `PHL_Property_Assessment.ipynb` - Exploratory data analysis, heat maps and regression model to a predict property's market value.
+- `PersonVsCorp_Philadelphia` - Segments abated properties by individuals versus business entities and stores number of properties into object.
+- `PersonVsCorp_XXXXX` - Segments properties by individual persons and corporations in specific zip code and uses gmaps to visualize data.
+​
+​
+### REQUIREMENTS
+​
+In order to use the notebook in this project, you will need the following libraries:
+​
+- pandas
+- numpy
+- matplotlib
+- re
+- scikit-learn
+- statsmodels
+- gmaps
+- gmplot
+- probablepeople
+- fuzzywuzzy
+- itertools
+- collections
+- locale
+​
+### CHALLENGES
+​
+- Date Size - data sets are memory and run time intensive. Given additional computing resources we would have been able to do further analyses.
+- Missing and inconsistant data - data was incomplete and stale in both CSVs. With more recent and complete data our anaylses could come to more concrete conclusions.
+- Current Data Science Skill Set - we were challenged by the limitation of our data science toolkit. With further learning we could have expanded the analyses and developed tools for city officials and residents to leverage.
+​
+### IMPROVEMENTS
+​
+This project could be furthered to use the data to form a model to predict future abatements.
